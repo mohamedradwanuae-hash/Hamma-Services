@@ -1,0 +1,58 @@
+[debug] [2026-07-22T18:22:08.388Z] ----------------------------------------------------------------------
+[debug] [2026-07-22T18:22:08.390Z] Command:       /usr/local/share/nvm/versions/node/v24.14.0/bin/node /home/codespace/nvm/current/bin/firebase init hosting
+[debug] [2026-07-22T18:22:08.390Z] CLI Version:   15.24.0
+[debug] [2026-07-22T18:22:08.390Z] Platform:      linux
+[debug] [2026-07-22T18:22:08.391Z] Node Version:  v24.14.0
+[debug] [2026-07-22T18:22:08.391Z] Detected Agent: unknown
+[debug] [2026-07-22T18:22:08.391Z] Time:          Wed Jul 22 2026 18:22:08 GMT+0000 (Coordinated Universal Time)
+[debug] [2026-07-22T18:22:08.391Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /workspaces/Hamma-Services
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2026-07-22T18:22:09.053Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-07-22T18:22:09.053Z] > authorizing via signed-in user (mohamedradwanuae@gmail.com)
+[debug] [2026-07-22T18:22:09.065Z] Checked if tokens are valid: true, expires at: 1784748121424
+[debug] [2026-07-22T18:22:09.065Z] Checked if tokens are valid: true, expires at: 1784748121424
+[debug] [2026-07-22T18:22:09.066Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/hammaservicesuk-43e3b [none]
+[debug] [2026-07-22T18:22:09.382Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/hammaservicesuk-43e3b 200
+[debug] [2026-07-22T18:22:09.382Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/hammaservicesuk-43e3b {"projectId":"hammaservicesuk-43e3b","projectNumber":"650845530729","displayName":"hammaservicesuk","name":"projects/hammaservicesuk-43e3b","resources":{"hostingSite":"hammaservicesuk-43e3b"},"state":"ACTIVE","labels":{"firebase":"enabled"},"etag":"1_ca3bc71d-a8a2-4916-b1c6-3d654d05fc33"}
+[info] i  Using project hammaservicesuk-43e3b (hammaservicesuk) . 
+[info] 
+=== Hosting Setup
+[debug] [2026-07-22T18:22:09.388Z] Checked if tokens are valid: true, expires at: 1784748121424
+[debug] [2026-07-22T18:22:09.388Z] Checked if tokens are valid: true, expires at: 1784748121424
+[debug] [2026-07-22T18:22:09.389Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/hammaservicesuk-43e3b [none]
+[debug] [2026-07-22T18:22:09.580Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/hammaservicesuk-43e3b 200
+[debug] [2026-07-22T18:22:09.580Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/hammaservicesuk-43e3b {"projectId":"hammaservicesuk-43e3b","projectNumber":"650845530729","displayName":"hammaservicesuk","name":"projects/hammaservicesuk-43e3b","resources":{"hostingSite":"hammaservicesuk-43e3b"},"state":"ACTIVE","labels":{"firebase":"enabled"},"etag":"1_ca3bc71d-a8a2-4916-b1c6-3d654d05fc33"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] 
+[info] i  Detected a .git folder at /workspaces/Hamma-Services 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=22903934&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
